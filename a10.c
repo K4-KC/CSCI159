@@ -2,7 +2,7 @@
 
 This program will convert polar
 polar coordinates to rectangular coordinates or
-rectangular coordinatest to polar coordinates
+rectangular coordinates to polar coordinates
 
 Author: Kanva K
 
