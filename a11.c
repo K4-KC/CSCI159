@@ -59,4 +59,7 @@ void convert_to_binary(int n) {
       printf("0");
     }
   }
+  printf("\n");
+  
+  return;
 }
