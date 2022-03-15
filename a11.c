@@ -13,6 +13,8 @@ int get_number();
 int ipow(int base, int exp);
 void convert_to_binary(int n);
 
+/************************************************************************/
+
 int main(void) {
   int number;
   
@@ -21,6 +23,8 @@ int main(void) {
   
   return 0;
 }
+
+/************************************************************************/
 
 int get_number() {
   int number;
@@ -32,6 +36,8 @@ int get_number() {
   return number;
 }
 
+/************************************************************************/
+
 int ipow(int base, int exp) {
   int p = 1;
   for(int i = 0; i < exp; i++) {
@@ -40,6 +46,8 @@ int ipow(int base, int exp) {
   
   return p;
 }
+
+/************************************************************************/
 
 void convert_to_binary(int n) {
   for(int i = 9; i >= 0; i--) {
