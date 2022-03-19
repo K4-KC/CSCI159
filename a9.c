@@ -7,7 +7,7 @@ Author: Kanva K
 
 *******************************************************************************/
 
-#include <stdio.h>\
+#include <stdio.h>
 
 void get_values(int* a, int* b, int* c);
 void swap(int* x, int* y);

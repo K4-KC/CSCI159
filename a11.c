@@ -7,9 +7,8 @@ Author: Kanva Kanva
 *******************************************************************************/
 
 #include <stdio.h>
-#include <stdio.h>
 
-int get_number();		
+int get_number();
 int ipow(int base, int exp);
 void convert_to_binary(int n);
 
