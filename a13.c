@@ -23,7 +23,7 @@ int main(void) {
 /************************************************************************/
 
 int get_input() {
-  int num;
+  int num = -1;
   while(num < 0 || num > 30) {
     printf("\nEnter the number (between 0 and 30 inclusive): ");
     scanf("%d", &num);
@@ -42,4 +42,4 @@ void produce_output(int num) {
     printf("\n");
   }
   return;
-}
+}:
