@@ -42,4 +42,4 @@ void produce_output(int num) {
     printf("\n");
   }
   return;
-}:
+}
