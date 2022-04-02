@@ -15,8 +15,7 @@ void print_output(float num, int exp, float result, int attempts);
 
 /************************************************************************/
 
-int main()
-{
+int main() {
   float num;
   int exp;
   float result;
