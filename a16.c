@@ -19,7 +19,7 @@ int main () {
   sp_input = fopen("a16.dat", "r");
 
   if (sp_input == NULL)
-    printf("\nUnable to open the file a16.dat\n");
+    printf("Unable to open the file a16.dat\n");
   else {
     int num;
     count = 0;
