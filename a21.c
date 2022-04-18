@@ -52,13 +52,12 @@ float average(float array[], int size) {
 }
 
 void bubble_sort(float array[], int size) {
-  int index_after_wall;
   int walk;
   
-  for (index = 0; index < size; index++) {
+  for (int index = 0; index < size; index++) {
     for (walk = size - 1; walk > index; walk--) {
-      if (a[walk] < a[walk - 1])
-          swap(&a[walk], &a[walk - 1]);
+      if (array[walk] < array[walk - 1])
+          swap(&array[walk], &array[walk - 1]);
      }
   }
   return;
@@ -78,7 +77,16 @@ float median(float array[], int size) {
   
   bubble_sort(array, size);
 
-  med = (array[floor((float) size / 2)] + array[ceil((float) size / 2)]) / 2;
+  switch(size % 2) {
+    case 0:
+      med = (array[size / 2 - 1] + array[size / 2]) / 2;
+      break;
+    case 1:
+      med = array[(size - 1) / 2];
+      break;
+    default:
+      printf("\n\nThis is not supposed to happen\n\n");
+  }
   
   return med;
 }
