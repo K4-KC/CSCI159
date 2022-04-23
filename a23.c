@@ -1,3 +1,12 @@
+/******************************************************************************
+
+This program reads a file named "a23.dat" with an array and calculates either
+the average of a row of integers or a column of integers and prints it out.
+
+Author: Kanva Kanva
+
+*******************************************************************************/
+
 #include <stdio.h>
 #define MAX_ROWS 10
 #define MAX_COLS 10
@@ -9,6 +18,8 @@ void print_all(int rows, int cols, int array[][MAX_COLS]);
 void row_avg(int row_of_interest, int cols, int array[][MAX_COLS]);
 
 void col_avg(int col_of_interest, int rows, int array[][MAX_COLS]);
+
+/************************************************************************/
 
 int main() {
 
@@ -37,6 +48,9 @@ int main() {
     return 0;
 }
 
+/************************************************************************/
+
+// This function reads the integer array from a23.dat file
 int get_info(int* rows, int* cols, int array[][MAX_COLS]) {
 
     int r;
@@ -56,6 +70,9 @@ int get_info(int* rows, int* cols, int array[][MAX_COLS]) {
         return 1;
 }
 
+/************************************************************************/
+
+// This function prints all the elements of the 2D array
 void print_all(int rows, int cols, int array[][MAX_COLS]) {
 
     int r;
@@ -71,6 +88,9 @@ void print_all(int rows, int cols, int array[][MAX_COLS]) {
     return;
 }
 
+/************************************************************************/
+
+// This function calculates the average of a particular row
 void row_avg(int row_of_interest, int cols, int array[][MAX_COLS]) {
 
     int c;
@@ -87,6 +107,9 @@ void row_avg(int row_of_interest, int cols, int array[][MAX_COLS]) {
     return;
 }
 
+/************************************************************************/
+
+// This function calculates the average of a particular column
 void col_avg(int col_of_interest, int rows, int array[][MAX_COLS]) {
 
     int r;
