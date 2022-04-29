@@ -1,6 +1,6 @@
 /******************************************************************************
 
-This program reads a file named "a16.dat" and can calculate the average,
+This program reads a file named "a20.dat" and can calculate the average,
 maximum, minimum score or prints out a list of scores.
 
 Author: Kanva Kanva
